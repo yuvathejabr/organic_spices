@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+#navbar {
+    position: sticky;
+    padding: .5rem 5rem;
+    background: black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 1);
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 800;
+    color: #4ea2fc !important;
+}
+
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover {
+    border-bottom: 2px solid #4ea2fc;
+}
+
+#navbarSupportedContent button {
+    background: #4ea2fc;
+    width: 5rem;
+    border-radius: 15px;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#home {
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.6)), url("https://5.imimg.com/data5/SELLER/Default/2021/6/QL/ZN/JD/51492923/organic-spices.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc,
+                 0px 6px 0px #ccc,
+                 0px 7px 0px #ccc,
+                 0px 8px 0px #ccc;
+}
+
+#home p{
+    color: #fff;
+    font-size: 20px;
+}
+
+#home .input-group{
+    width: 45%;
+    height: 45px;
+}
+
+.signin {
+    background-color: #4ea2fc !important;
+    color: #fff !important;
+    box-shadow: 3px 4px 5px rgba(0,0,0,.5);
+}
+
+#about{
+    background: black;
+}
+#about h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: #fff;
+}
+
+#about p {
+    color: white;
+}
+#about img {
+    text-align: center;
+    height: 80%;
+}
+
+
+
+#product h1{
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+#product img{
+    width: 200px;
+    height: 200px;
+    margin-left: 40px;
+    margin-right: auto;
+    margin-top: 22px;
+}
+
+.card {
+    width: 250px;
+    height: 300px;
+    background: #fff !important;
+    border: none !important;
+    box-shadow: 12px 12px 2px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px !important;
+    overflow: hidden;
+    margin: 20px 60px;
+    transition: .2s;
+    
+}
+.card:hover{
+    box-shadow: inset 5px 5px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+    transition: .2s;
+}
+
+#contact {
+    background: #e9ebfc;
+}
+
+#contact img{
+    height: 90%;
+    width: 100%;
+}
+#contact input{
+    margin: 10px 0px;
+}
+
+#contact textarea{
+    margin: 10px 0px;
+}
+
+
+#contact h1{
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
